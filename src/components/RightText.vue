@@ -15,6 +15,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import '../styles/_keyframes.scss';
   .right-text-wrapper{
     display: flex;
     writing-mode: tb-rl;
@@ -24,14 +25,7 @@ export default {
     animation-name: verticalMovement;
     animation-duration: 3s;
 
-    @keyframes verticalMovement {
-      0% {
-        transform: translatey(-100%);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
+    
   }
 </style>
 

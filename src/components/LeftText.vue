@@ -13,6 +13,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import '../styles/_keyframes.scss';
   .left-text-wrapper{
     display: flex;
     writing-mode: tb-rl;
@@ -20,7 +21,7 @@ export default {
     height: 100%;
     
     animation-duration: 3s;
-    animation-name: verticalMovement2;
+    animation-name: verticalMovement;
     
     
     .main {
@@ -29,15 +30,6 @@ export default {
           180deg   
         );
     };
-
-    @keyframes verticalMovement2 {
-      0% {
-        transform: translateY(-100%);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
 
   }
 </style>
