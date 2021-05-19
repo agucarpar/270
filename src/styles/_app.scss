@@ -9,3 +9,15 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@import '../styles/variables.scss';
+
+.landing-lateral-text {
+  display: flex;
+  writing-mode: tb-rl;
+  justify-content: space-evenly;
+  height: 100%;
+  animation-duration: $initialTime;
+  animation-name: verticalMovement;
+  color: $colorLandingText;
+}
