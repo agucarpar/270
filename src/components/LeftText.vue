@@ -1,5 +1,6 @@
 <template>
-<div class="left-text-wrapper">
+<div class="landing-lateral-text">
+  <p class="main">MASTERING</p>
   <p class="main">MUSICAL PRODUCTION FOR THE DIGITAL AGE</p>
 </div>
   
@@ -12,26 +13,13 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import '../styles/_keyframes.scss';
-  .left-text-wrapper{
-    display: flex;
-    writing-mode: tb-rl;
-    justify-content: space-evenly;
-    height: 100%;
-    
-    animation-duration: 3s;
-    animation-name: verticalMovement;
-    
-    
-    .main {
-      word-spacing: 2rem;
-      transform: rotate(
-          180deg   
-        );
-    };
-
+<style lang="scss" scoped>
+.landing-lateral-text{
+  .main {
+    word-spacing: 2rem;
+    transform: rotate(
+      180deg   
+      );
   }
+}
 </style>
-
-

@@ -1,8 +1,8 @@
 <template>
-<div class="right-text-wrapper">
-  <p>Production</p>
-  <p>Composing For Film</p>
-  <p>The art of the music</p>
+<div class="landing-lateral-text">
+  <p>PRODUCTION</p>
+  <p>COMPOSING FOR FILM</p>
+  <p>TH ART FOR THE MUSIC</p>
 </div>
   
 </template>
@@ -14,19 +14,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import '../styles/_keyframes.scss';
-  .right-text-wrapper{
-    display: flex;
-    writing-mode: tb-rl;
-    justify-content: space-evenly;
-    height: 100%;
-    float: right;
-    animation-name: verticalMovement;
-    animation-duration: 3s;
-
-    
-  }
+<style lang="scss" scoped>
+@import '../styles/variables.scss';
 </style>
 
 
